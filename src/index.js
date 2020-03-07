@@ -8,7 +8,6 @@ console.log(name);
   return x * y;
 });
 
-const a = 'saldal;s';
 
 const person = {
   name: 'Yoda',
