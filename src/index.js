@@ -10,7 +10,7 @@ console.log(name);
 
 const person = {
   name: 'Yoda',
-  designation: 'Jedi Master '
+  designation: 'Jedi Master ',
 };
 
 function trainJedi(jediWarrion) {
@@ -24,5 +24,5 @@ trainJedi(person);
 
 trainJedi({
   name: 'Adeel',
-  designation: 'padawan'
+  designation: 'padawan',
 });
