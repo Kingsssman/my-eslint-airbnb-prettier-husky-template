@@ -1,4 +1,4 @@
-# eslint-prettier-husky-template
+# my-eslint-airbnb-prettier-husky-template
 
 To work with team of developers:
 
