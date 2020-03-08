@@ -6,6 +6,6 @@ To work with team of developers:
 - ESLint
 - Prettier
 - Airbnb (Code Style)
-- Husky (Code Style)
+- Husky
 - Lint-staged
 - EditorConfig
