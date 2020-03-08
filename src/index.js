@@ -3,17 +3,15 @@ const name = 'Capt. Gangway';
 console.log(name);
 
 // bad
-[1, 2, 3].map((x) => {
+[1, 2, 3].map(x => {
   const y = x + 1;
   return x * y;
 });
 
-
 const person = {
   name: 'Yoda',
-  designation: 'Jedi Master ',
+  designation: 'Jedi Master '
 };
-
 
 function trainJedi(jediWarrion) {
   if (jediWarrion.name === 'Yoda') {
@@ -23,7 +21,8 @@ function trainJedi(jediWarrion) {
 }
 
 trainJedi(person);
+
 trainJedi({
   name: 'Adeel',
-  designation: 'padawan',
+  designation: 'padawan'
 });
