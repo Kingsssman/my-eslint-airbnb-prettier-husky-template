@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint  src/",
+    "lint:fix": "eslint  src/ --fix",
+    "prettier": "prettier — write src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,7 +25,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
+      "npm run lint:fix",
       "git add"
     ]
   },
